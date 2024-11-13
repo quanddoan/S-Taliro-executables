@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm_param_graph/R2021b">
+  <slsa.mm.param.graph.VariableRegistry type="slsa.mm.param.graph.VariableRegistry" uuid="cb3b2a9b-c3fe-429c-aca7-7b6c095de861">
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="f79a9a1f-766f-4714-a12f-19930cac476e">
+      <blockPath>AbstractFuelControl_M1/V&amp;V stub system/spec_num</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="360a8463-4ef3-4ce1-8881-2c44c7578d5f"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="360a8463-4ef3-4ce1-8881-2c44c7578d5f">
+      <expression>spec_num</expression>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="f79a9a1f-766f-4714-a12f-19930cac476e"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="03c6f216-a18b-4ce3-95d2-e0f1c96eaaa5"/>
+    </expressions>
+    <name>AbstractFuelControl_M1</name>
+    <variables type="slsa.mm.param.graph.Variable" uuid="1ddf1617-c37a-4032-9079-a7ea956c753a">
+      <name>measureTime</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="b00262a6-44cc-459f-8782-b87883042292"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="deb4b6ed-7a28-4d72-976b-1758b679f6b4">
+      <name>fuel_inj_tol</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="b00262a6-44cc-459f-8782-b87883042292"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="7ee103ef-45c2-4c02-8cad-2a5947ea1d05">
+      <name>AF_sensor_tol</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="b00262a6-44cc-459f-8782-b87883042292"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="2f359651-c5ea-4b1d-b6da-1eaab3c18d25">
+      <name>simTime</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="b00262a6-44cc-459f-8782-b87883042292"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="37914091-fd40-48aa-8f30-95bee65f21e4">
+      <name>fault_time</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="b00262a6-44cc-459f-8782-b87883042292"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="717d9d4c-2da5-4972-ad84-60e9608bc74d">
+      <name>MAF_sensor_tol</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="b00262a6-44cc-459f-8782-b87883042292"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="03c6f216-a18b-4ce3-95d2-e0f1c96eaaa5">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="360a8463-4ef3-4ce1-8881-2c44c7578d5f"/>
+      <name>spec_num</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="b00262a6-44cc-459f-8782-b87883042292"/>
+    </variables>
+    <workspaces type="slsa.mm.param.graph.Workspace" uuid="b00262a6-44cc-459f-8782-b87883042292">
+      <name>global-workspace</name>
+      <variables type="slsa.mm.param.graph.Variable" uuid="1ddf1617-c37a-4032-9079-a7ea956c753a"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="deb4b6ed-7a28-4d72-976b-1758b679f6b4"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="7ee103ef-45c2-4c02-8cad-2a5947ea1d05"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="2f359651-c5ea-4b1d-b6da-1eaab3c18d25"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="37914091-fd40-48aa-8f30-95bee65f21e4"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="717d9d4c-2da5-4972-ad84-60e9608bc74d"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="03c6f216-a18b-4ce3-95d2-e0f1c96eaaa5"/>
+    </workspaces>
+    <contextManager type="slsa.mm.param.graph.ContextManager" uuid="97b82751-06cb-4837-a8bd-95437b1333f2"/>
+  </slsa.mm.param.graph.VariableRegistry>
+</MF0>
